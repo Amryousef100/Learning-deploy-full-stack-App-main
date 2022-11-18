@@ -16,13 +16,15 @@ To achieve the Pipeline process requires the preparation of four fulfillment of 
 
 Some information you will need to preparation the config.yml file inside a folder .elasticbeanstalk where it
 
- need name of the app in elasticbeanstalk  (Udagrameapi-env) and
-  name of environment of elasticbeanstalk ( Udagrameapi-env  )   and 
+ need name of the app in elasticbeanstalk  (udagrame-api) and
+  name of environment of elasticbeanstalk ( Udagrameapi-env  )  
 
-  In the same way in file deploy.sh where need name of the app in elasticbeanstalk  (Udagrameapi-env) 
+  and  In the same way in file deploy.sh where need name of the app in elasticbeanstalk  (udagrame-api) 
 
    and  name of environment of elasticbeanstalk    ( Udagrameapi-env  )    This is for back -end  udgram-api
-As for the  front-end  udgaram – frontend in file deploy.sh it need name of the app in s3 bucket 
+
+
+As for the  front-end ( udgaram–frontend) in file deploy.sh it need name of the app in s3 bucket 
 
 ```
 public-read ./www s3://engamryoussef-udagram/
