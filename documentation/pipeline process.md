@@ -78,6 +78,7 @@ i edit the .circleci/config.yml and add more commands that CircleCI will run.
 
 Before doing this, I add scripts in our root package.json.
 
+````
 
 {
     "scripts": {
@@ -95,6 +96,7 @@ Before doing this, I add scripts in our root package.json.
         "deploy": "npm run api:deploy && npm run frontend:deploy"
     }
 }
+````
 
 3-	Upload the application code to your own GitHub. I can find the code here
 
