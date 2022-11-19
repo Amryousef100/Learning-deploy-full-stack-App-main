@@ -39,7 +39,7 @@ Create access key and secret for the IAM user to get values of
 AWS_REGION,  AWS_SECRET_KEY  and  AWS_ACCESS_KEY  to
 add environment variables in my Circle CI project for
 
-
+````````
 AWS_ACCESS_KEY_ID	=AKIA3GQSX5L7LVQH2O6O
 AWS_BUCKET=	engamryoussef-udagram
 AWS_DEFAULT_REGION=	us-east-1
@@ -52,6 +52,7 @@ POSTGRES_PASSWORD	=engamryoussef
 POSTGRES_USERNAME	=postgres
 URL=	Udagrameapi-env.eba-ym3x5z8s.us-east-1.elasticbeanstalk.com
 
+`````````
 
 2-Create a config.yml file containing :
 
